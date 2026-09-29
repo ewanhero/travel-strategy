@@ -62,10 +62,120 @@
     </div><div class="hotel-total">现有 5 家酒店共 24 个房晚：保留 5 晚，计划退 19 晚；另订榆林、应县各 1 晚。部分订单若不支持缩短日期，先确认目标房态和退改成本，再取消旧单。</div></section>
 
     <section id="packing" aria-labelledby="packing-title"><div class="section-head"><div><h2 id="packing-title">出发打包清单</h2><p>点击方框勾选。勾选状态会保存在当前浏览器，刷新页面仍会保留。</p></div></div><div class="packing-toolbar"><div style="flex:1"><strong id="progress-label">已准备 0 / 0 项</strong><div class="progress" aria-hidden="true"><span id="progress-bar"></span></div></div><button type="button" class="reset" id="reset-list">清空勾选</button></div><div class="pack-grid">
-      <div class="pack-card"><h3>衣物与防晒</h3><label class="check-row"><input type="checkbox" data-item="warm-jacket"><span>轻薄羽绒服或保暖外套</span></label><label class="check-row"><input type="checkbox" data-item="layers"><span>抓绒／薄毛衣、防风层、长袖长裤</span></label><label class="check-row"><input type="checkbox" data-item="child-clothes"><span>孩子多 1—2 套换洗衣物与袜子</span></label><label class="check-row"><input type="checkbox" data-item="shoes"><span>包脚好走的鞋、备用袜子、防沙鞋套</span></label><label class="check-row"><input type="checkbox" data-item="sun"><span>帽子、太阳镜、防晒用品</span></label><label class="check-row"><input type="checkbox" data-item="skin"><span>润唇膏、保湿霜、合适尺寸口罩</span></label><label class="check-row"><input type="checkbox" data-item="rain"><span>雨衣／折叠伞、脏衣袋、小刷子</span></label></div>
-      <div class="pack-card"><h3>车内与补电</h3><label class="check-row"><input type="checkbox" data-item="seat"><span>适合孩子的安全座椅／增高垫</span></label><label class="check-row"><input type="checkbox" data-item="blanket"><span>薄毯、小靠枕</span></label><label class="check-row"><input type="checkbox" data-item="key"><span>实体车钥匙卡</span></label><label class="check-row"><input type="checkbox" data-item="charging"><span>充电线、充电 App 登录与支付检查</span></label><label class="check-row"><input type="checkbox" data-item="power-bank"><span>手机充电宝与数据线</span></label><label class="check-row"><input type="checkbox" data-item="tire"><span>胎压、雨刷、玻璃水、车灯检查</span></label><label class="check-row"><input type="checkbox" data-item="safety"><span>充气泵、警示牌、反光背心</span></label></div>
-      <div class="pack-card"><h3>吃喝与厨房</h3><label class="check-row"><input type="checkbox" data-item="water"><span>饮用水、保温杯</span></label><label class="check-row"><input type="checkbox" data-item="food"><span>可直接食用的备餐、孩子熟悉的零食</span></label><label class="check-row"><input type="checkbox" data-item="induction"><span><strong>电磁炉</strong></span></label><label class="check-row"><input type="checkbox" data-item="pot"><span><strong>锅</strong></span></label><label class="check-row"><input type="checkbox" data-item="tableware"><span>餐具、清洁用品、垃圾袋</span></label><p class="fineprint">电磁炉与锅已列入清单；使用前先确认住宿场所允许、插座与设备功率相容。</p></div>
-      <div class="pack-card"><h3>证件与健康</h3><label class="check-row"><input type="checkbox" data-item="ids"><span>全家入住所需证件</span></label><label class="check-row"><input type="checkbox" data-item="licenses"><span>两位司机的驾驶证、车辆行驶证</span></label><label class="check-row"><input type="checkbox" data-item="reservations"><span>酒店订单、门票及停车入口截图</span></label><label class="check-row"><input type="checkbox" data-item="meds"><span>自家常用药及说明书、体温计</span></label><label class="check-row"><input type="checkbox" data-item="firstaid"><span>创可贴、晕车袋</span></label><label class="check-row"><input type="checkbox" data-item="emergency"><span>道路救援联系方式与应急联系人</span></label></div>
+      <div class="pack-card"><h3>电子设备与供电</h3>
+        <label class="check-row"><input type="checkbox" data-item="power-bank"><span>手机充电宝</span></label>
+        <label class="check-row"><input type="checkbox" data-item="charging"><span>Type-C、Lightning、USB-C 充电线全套</span></label>
+        <label class="check-row"><input type="checkbox" data-item="three-head-cables"><span>三头充电线 ×2</span></label>
+        <label class="check-row"><input type="checkbox" data-item="backup-power"><span>移动／备用电源（核对实际设备的输出能力；不默认车辆支持 V2L）</span></label>
+        <label class="check-row"><input type="checkbox" data-item="small-fan"><span>小风扇</span></label>
+        <label class="check-row"><input type="checkbox" data-item="phone-lens-shade"><span>手机镜头遮光罩</span></label>
+        <label class="check-row"><input type="checkbox" data-item="casting-device"><span>酒店投屏器</span></label>
+        <label class="check-row"><input type="checkbox" data-item="hdmi-cable"><span>HDMI 线</span></label>
+        <label class="check-row"><input type="checkbox" data-item="usb-power-strip"><span>带 USB 口的插线板</span></label>
+        <label class="check-row"><input type="checkbox" data-item="macbook"><span>MacBook</span></label>
+        <label class="check-row"><input type="checkbox" data-item="apple-watch-charger"><span>Apple Watch 充电器</span></label>
+        <label class="check-row"><input type="checkbox" data-item="child-watch-cable"><span>孩子手表充电线</span></label>
+        <label class="check-row"><input type="checkbox" data-item="pocket-camera"><span>大疆 Pocket 4</span></label>
+        <label class="check-row"><input type="checkbox" data-item="portable-light"><span>便携台灯</span></label><label class="check-row"><input type="checkbox" data-item="outdoor-bulb"><span>户外灯泡</span></label>
+      </div>
+      <div class="pack-card"><h3>衣物、防晒与户外</h3>
+        <label class="check-row"><input type="checkbox" data-item="warm-jacket"><span>轻薄羽绒服或保暖外套</span></label>
+        <label class="check-row"><input type="checkbox" data-item="layers"><span>抓绒／薄毛衣、防风层、长袖长裤</span></label>
+        <label class="check-row"><input type="checkbox" data-item="quick-dry-shirts"><span>全家速干 T 恤 ×3</span></label>
+        <label class="check-row"><input type="checkbox" data-item="shorts"><span>短裤 ×3</span></label>
+        <label class="check-row"><input type="checkbox" data-item="underwear"><span>每人内裤 ×3</span></label>
+        <label class="check-row"><input type="checkbox" data-item="socks"><span>每人袜子 ×2 双</span></label>
+        <label class="check-row"><input type="checkbox" data-item="slippers"><span>拖鞋</span></label>
+        <label class="check-row"><input type="checkbox" data-item="child-clothes"><span>孩子多带 1–2 套换洗衣物</span></label>
+        <label class="check-row"><input type="checkbox" data-item="shoes"><span>舒适、包脚、好走的运动鞋</span></label>
+        <label class="check-row"><input type="checkbox" data-item="desert-shoe-covers"><span>防沙鞋套</span></label><label class="check-row"><input type="checkbox" data-item="rain-shoe-covers"><span>便携雨鞋套</span></label>
+        <label class="check-row"><input type="checkbox" data-item="sun"><span>太阳帽／遮阳帽</span></label>
+        <label class="check-row"><input type="checkbox" data-item="sunglasses"><span>太阳镜</span></label>
+        <label class="check-row"><input type="checkbox" data-item="sunscreen"><span>防晒霜／防晒用品</span></label>
+        <label class="check-row"><input type="checkbox" data-item="skin"><span>润唇膏</span></label>
+        <label class="check-row"><input type="checkbox" data-item="moisturizer"><span>保湿霜</span></label>
+        <label class="check-row"><input type="checkbox" data-item="rain"><span>一次性雨衣 ×3</span></label>
+        <label class="check-row"><input type="checkbox" data-item="umbrella"><span>雨伞／折叠伞</span></label>
+        <label class="check-row"><input type="checkbox" data-item="dust-masks"><span>防风沙口罩 ×3</span></label>
+        <label class="check-row"><input type="checkbox" data-item="outdoor-towel"><span>擦汗、擦沙小毛巾</span></label>
+        <label class="check-row"><input type="checkbox" data-item="laundry-bag"><span>脏衣袋</span></label>
+        <label class="check-row"><input type="checkbox" data-item="seal-bags"><span>密封袋（防潮、分装）</span></label>
+        <label class="check-row"><input type="checkbox" data-item="sand-brush"><span>清理沙子的小刷子</span></label>
+      </div>
+      <div class="pack-card"><h3>孩子乘车与车上应急</h3>
+        <label class="check-row"><input type="checkbox" data-item="seat"><span>适合孩子的安全座椅／增高垫</span></label>
+        <label class="check-row"><input type="checkbox" data-item="blanket"><span>薄毯</span></label>
+        <label class="check-row"><input type="checkbox" data-item="child-pillow"><span>小靠枕</span></label>
+        <label class="check-row"><input type="checkbox" data-item="neck-support"><span>颈枕／腰靠</span></label>
+        <label class="check-row"><input type="checkbox" data-item="key"><span>实体车钥匙卡（备用一张给同车人）</span></label>
+        <label class="check-row"><input type="checkbox" data-item="safety"><span>车载充气泵</span></label>
+        <label class="check-row"><input type="checkbox" data-item="warning-triangle"><span>车辆警示牌</span></label>
+        <label class="check-row"><input type="checkbox" data-item="reflective-vest"><span>反光背心</span></label>
+        <label class="check-row"><input type="checkbox" data-item="bike-seat"><span>共享单车儿童座椅／骑行用品（计划骑行时）</span></label>
+        <label class="check-row"><input type="checkbox" data-item="cash"><span>应急现金 200 元</span></label>
+      </div>
+      <div class="pack-card"><h3>吃喝与厨房</h3>
+        <label class="check-row"><input type="checkbox" data-item="water"><span>饮用水约 6 L</span></label>
+        <label class="check-row"><input type="checkbox" data-item="thermos"><span>保温杯 ×2</span></label>
+        <label class="check-row"><input type="checkbox" data-item="water-bottle"><span>便携水壶／水瓶</span></label>
+        <label class="check-row"><input type="checkbox" data-item="energy-bars"><span>能量棒</span></label>
+        <label class="check-row"><input type="checkbox" data-item="chocolate"><span>巧克力</span></label>
+        <label class="check-row"><input type="checkbox" data-item="compressed-biscuits"><span>压缩饼干</span></label>
+        <label class="check-row"><input type="checkbox" data-item="food"><span>可直接食用的备餐（无需热水或加热）</span></label><label class="check-row"><input type="checkbox" data-item="instant-noodles"><span>桶装方便面</span></label>
+        <label class="check-row"><input type="checkbox" data-item="child-snacks"><span>孩子熟悉的零食</span></label>
+        <label class="check-row"><input type="checkbox" data-item="induction"><span><strong>电磁炉</strong></span></label>
+        <label class="check-row"><input type="checkbox" data-item="pot"><span><strong>锅</strong></span></label>
+        <label class="check-row"><input type="checkbox" data-item="tableware"><span>餐具</span></label>
+        <label class="check-row"><input type="checkbox" data-item="kitchen-cleaning"><span>厨房清洁用品</span></label>
+        <label class="check-row"><input type="checkbox" data-item="trash-bags"><span>垃圾袋 ×5</span></label>
+        <p class="fineprint">电磁炉与锅已列入清单；使用前确认住宿场所允许，并核对插座与设备功率要求。</p>
+      </div>
+      <div class="pack-card"><h3>洗漱与健康</h3>
+        <label class="check-row"><input type="checkbox" data-item="face-cleanser"><span>洗面奶</span></label>
+        <label class="check-row"><input type="checkbox" data-item="toner"><span>爽肤水</span></label>
+        <label class="check-row"><input type="checkbox" data-item="lotion"><span>乳液</span></label>
+        <label class="check-row"><input type="checkbox" data-item="shampoo"><span>洗发水</span></label>
+        <label class="check-row"><input type="checkbox" data-item="razor"><span>剃须刀</span></label>
+        <label class="check-row"><input type="checkbox" data-item="shaving-foam"><span>剃须泡沫</span></label>
+        <label class="check-row"><input type="checkbox" data-item="toothpaste"><span>牙膏</span></label>
+        <label class="check-row"><input type="checkbox" data-item="toothbrushes"><span>成人牙刷 ×2</span></label>
+        <label class="check-row"><input type="checkbox" data-item="child-toothbrush-kit"><span>儿童牙刷、儿童牙膏</span></label>
+        <label class="check-row"><input type="checkbox" data-item="toothbrush-charger"><span>牙刷充电座</span></label>
+        <label class="check-row"><input type="checkbox" data-item="wet-wipes"><span>湿纸巾</span></label>
+        <label class="check-row"><input type="checkbox" data-item="cotton-swabs"><span>棉签</span></label>
+        <label class="check-row"><input type="checkbox" data-item="face-towels"><span>一次性洗脸巾</span></label>
+        <label class="check-row"><input type="checkbox" data-item="mosquito-repellent"><span>驱蚊液</span></label>
+        <label class="check-row"><input type="checkbox" data-item="mosquito-patches"><span>驱蚊贴</span></label>
+        <label class="check-row"><input type="checkbox" data-item="meds"><span>自家常用药（感冒、退烧、止泻）及说明书</span></label>
+        <label class="check-row"><input type="checkbox" data-item="digestive-medicine"><span>健胃消食片</span></label>
+        <label class="check-row"><input type="checkbox" data-item="stomach-medicine"><span>肠胃药／藿香正气水</span></label>
+        <label class="check-row"><input type="checkbox" data-item="thermometer"><span>体温计</span></label>
+        <label class="check-row"><input type="checkbox" data-item="firstaid"><span>创可贴／基础急救用品</span></label>
+        <label class="check-row"><input type="checkbox" data-item="blister-patches"><span>磨脚贴</span></label>
+        <label class="check-row"><input type="checkbox" data-item="motion-sickness-bags"><span>晕车袋 ×5</span></label>
+      </div>
+      <div class="pack-card"><h3>证件、订单与应急联系</h3>
+        <label class="check-row"><input type="checkbox" data-item="ids"><span>成人身份证 ×2</span></label>
+        <label class="check-row"><input type="checkbox" data-item="child-household-book"><span>9/30 前备好孩子户口本</span></label>
+        <label class="check-row"><input type="checkbox" data-item="licenses"><span>两位司机驾驶证</span></label>
+        <label class="check-row"><input type="checkbox" data-item="vehicle-registration"><span>车辆行驶证</span></label>
+        <label class="check-row"><input type="checkbox" data-item="reservations"><span>酒店订单截图（按实际行程住宿 7 晚，榆林、应县另订 2 晚）及退订确认</span></label>
+        <label class="check-row"><input type="checkbox" data-item="ticket-screenshots"><span>景点门票订单截图</span></label>
+        <label class="check-row"><input type="checkbox" data-item="parking-screenshots"><span>停车入口信息截图</span></label>
+        <label class="check-row"><input type="checkbox" data-item="hotel-contacts"><span>酒店前台电话截图／联系方式</span></label>
+        <label class="check-row"><input type="checkbox" data-item="payment-screenshots"><span>充电 App、高德地图、微信支付等登录／支付信息</span></label>
+        <label class="check-row"><input type="checkbox" data-item="emergency"><span>纸质应急联系人卡片</span></label>
+        <label class="check-row"><input type="checkbox" data-item="roadside-contacts"><span>保险公司道路救援电话、高速救援 12122</span></label>
+      </div>
+      <div class="pack-card"><h3>出发前确认</h3>
+        <label class="check-row"><input type="checkbox" data-item="tire"><span>检查胎压、轮胎、雨刷、玻璃水、车灯、制动液和电池状态</span></label>
+        <label class="check-row"><input type="checkbox" data-item="tesla-app-check"><span>9/30 出发前确认 Tesla App 登录、充值与支付，并逐个核对超充站点和备选站</span></label>
+        <label class="check-row"><input type="checkbox" data-item="todo-hotels"><span>9/30 前预订榆林、应县酒店各 1 晚</span></label>
+        <label class="check-row"><input type="checkbox" data-item="todo-cancellations"><span>9/30 前确认已订酒店的调整／退订状态及退款</span></label>
+        <label class="check-row"><input type="checkbox" data-item="todo-star-hotel"><span>9/30 前向北纬 37° 星星酒店确认准确入口、接驳、停车、充电与入住安排</span></label>
+        <label class="check-row"><input type="checkbox" data-item="todo-tickets"><span>9/30 前确认西部梦幻峡谷、贺兰山岩画、西夏陵、沙坡头、应县木塔门票和预约</span></label>
+        <label class="check-row"><input type="checkbox" data-item="todo-weather"><span>9/30 出发前复查天气、大风／扬沙预警；10/7 前核对回京路段霜冻情况</span></label>
+      </div>
     </div></section>
 
     <section id="notes" aria-labelledby="notes-title"><div class="section-head"><div><h2 id="notes-title">上路前再核对</h2></div></div><div class="intro-grid"><div class="panel"><h2>导航与充电</h2><ul class="action-list"><li>每次出发前重查当天路况、收费出口预计时间和道路管制。</li><li>充电站核对同向入口、可用枪位、功率、排队和下一备用站。</li><li>首日两次主要补电加一次短补为候选方案，不把具体服务区当成已确认可用站。</li><li>两位司机约每 1.5—2 小时交替；困倦时提前停车休息。</li></ul></div><div class="panel"><h2>门票、酒店与天气</h2><ul class="action-list"><li>核对峡谷、岩画、西夏陵、沙坡头、木塔的国庆开放、预约及最晚入园时间。</li><li>确认北纬37°星星酒店的准确入口、接驳、停车、充电和套餐内容。</li><li>10/5 榆林、10/6 应县酒店尽早预订；逐单核对已订酒店的退改规则。</li><li>夜间可能接近 0℃，临近再查天气、大风和扬沙预警。</li></ul></div></div></section>
